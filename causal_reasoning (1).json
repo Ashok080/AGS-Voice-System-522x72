@@ -1,0 +1,20 @@
+[
+  {
+    "id": "cr_001",
+    "cause": "The weather was very cold",
+    "effect": "The lake froze over",
+    "reasoning": "Cold temperatures cause water to freeze."
+  },
+  {
+    "id": "cr_002",
+    "cause": "She studied hard for the test",
+    "effect": "She got a high score",
+    "reasoning": "Studying improves understanding and performance."
+  },
+  {
+    "id": "cr_003",
+    "cause": "The power went out",
+    "effect": "The lights turned off",
+    "reasoning": "Lights need electricity to work."
+  }
+]

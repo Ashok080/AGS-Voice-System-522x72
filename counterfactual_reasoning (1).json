@@ -1,0 +1,41 @@
+[
+  {
+    "id": "cf_001",
+    "situation": "If it had rained yesterday, the match would have been canceled.",
+    "question": "What can we infer about the weather yesterday?",
+    "options": [
+      "It rained",
+      "The match was canceled",
+      "It did not rain",
+      "It was windy"
+    ],
+    "answer": "It did not rain",
+    "reasoning_type": "counterfactual reasoning"
+  },
+  {
+    "id": "cf_002",
+    "situation": "If I had studied harder, I would have passed the exam.",
+    "question": "What does this imply?",
+    "options": [
+      "I passed the exam",
+      "I did not study hard",
+      "I studied hard",
+      "I didn't take the exam"
+    ],
+    "answer": "I did not study hard",
+    "reasoning_type": "counterfactual reasoning"
+  },
+  {
+    "id": "cf_003",
+    "situation": "If she had taken the earlier train, she would have arrived on time.",
+    "question": "What can we conclude?",
+    "options": [
+      "She took the earlier train",
+      "She arrived early",
+      "She missed the train",
+      "She did not arrive on time"
+    ],
+    "answer": "She did not arrive on time",
+    "reasoning_type": "counterfactual reasoning"
+  }
+]

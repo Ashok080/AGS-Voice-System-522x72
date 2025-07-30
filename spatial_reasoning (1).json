@@ -1,0 +1,23 @@
+[
+  {
+    "id": "sr_001",
+    "situation": "A book is on the table and a cup is to the right of the book.",
+    "question": "Where is the cup in relation to the book?",
+    "answer": "To the right of the book.",
+    "reasoning_type": "spatial reasoning"
+  },
+  {
+    "id": "sr_002",
+    "situation": "The cat is under the chair while the dog is on the chair.",
+    "question": "Where is the cat compared to the dog?",
+    "answer": "Under the dog.",
+    "reasoning_type": "spatial reasoning"
+  },
+  {
+    "id": "sr_003",
+    "situation": "A person is standing in front of a mirror holding a book in their right hand.",
+    "question": "Which hand will appear to be holding the book in the mirror image?",
+    "answer": "The left hand.",
+    "reasoning_type": "spatial reasoning"
+  }
+]
