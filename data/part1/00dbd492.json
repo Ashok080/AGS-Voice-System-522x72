@@ -1,0 +1,11 @@
+{
+  "id": "00dbd492",
+  "title": "Emotion Recognition - Ice Cream",
+  "situation": "A child drops their ice cream cone.",
+  "emotion": "Sadness",
+  "question": "Why might the child feel sad?",
+  "answer": "Because they were enjoying the ice cream and now it’s gone.",
+  "reasoning_type": "emotional reasoning",
+  "voice_instruction": "Explain this with empathy in a calm tone.",
+  "language": "English"
+}
