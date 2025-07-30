@@ -1,0 +1,23 @@
+[
+  {
+    "id": "cr_001",
+    "situation": "It started raining heavily.",
+    "question": "Why did the ground become wet?",
+    "answer": "Because rainwater fell onto the ground.",
+    "reasoning_type": "causal reasoning"
+  },
+  {
+    "id": "cr_002",
+    "situation": "A student studied hard for weeks.",
+    "question": "Why did they perform well in the exam?",
+    "answer": "Because their preparation helped them answer the questions correctly.",
+    "reasoning_type": "causal reasoning"
+  },
+  {
+    "id": "cr_003",
+    "situation": "A power outage occurred in the neighborhood.",
+    "question": "What could have caused this?",
+    "answer": "A transformer failure or a storm might have damaged the power lines.",
+    "reasoning_type": "causal reasoning"
+  }
+]

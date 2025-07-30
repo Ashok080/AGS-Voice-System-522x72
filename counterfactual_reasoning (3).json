@@ -1,0 +1,23 @@
+[
+  {
+    "id": "cf_001",
+    "situation": "A boy forgot his umbrella and got soaked in the rain.",
+    "question": "What could have happened if he had remembered the umbrella?",
+    "answer": "He would have stayed dry.",
+    "reasoning_type": "counterfactual reasoning"
+  },
+  {
+    "id": "cf_002",
+    "situation": "The team lost the match due to a missed penalty.",
+    "question": "What might have happened if the penalty was scored?",
+    "answer": "The team might have won or at least tied the match.",
+    "reasoning_type": "counterfactual reasoning"
+  },
+  {
+    "id": "cf_003",
+    "situation": "She didn\u2019t study for the test and failed.",
+    "question": "What could have happened if she had studied?",
+    "answer": "She could have passed or gotten a good grade.",
+    "reasoning_type": "counterfactual reasoning"
+  }
+]

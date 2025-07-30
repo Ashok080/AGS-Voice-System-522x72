@@ -1,0 +1,14 @@
+[
+  {
+    "id": "ar_001",
+    "analogy": "Bird is to Fly as Fish is to ____",
+    "answer": "Swim",
+    "reasoning": "Birds move through air by flying; fish move through water by swimming."
+  },
+  {
+    "id": "ar_002",
+    "analogy": "Pencil is to Write as Knife is to ____",
+    "answer": "Cut",
+    "reasoning": "A pencil is a tool used for writing, and a knife is a tool used for cutting."
+  }
+]
