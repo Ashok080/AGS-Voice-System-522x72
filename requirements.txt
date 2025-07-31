@@ -1,0 +1,12 @@
+Enter# Core dependencies for AGS (Artificial General System)
+openai>=1.0.0
+gradio>=4.0.0
+
+# Optional: for audio input/output features
+# elevenlabs  # Text-to-speech (if you use ElevenLabs voice)
+# whisper     # Speech-to-text (OpenAI Whisper)
+
+# Optional: for JSON or audio processing (if needed later)
+# numpy
+# soundfile
+# pydub
