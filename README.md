@@ -1,66 +1,58 @@
-# 🧠 AGS-Voice-System
+# 🧠 AGS - Artificial General System
 
-**AGS (Artificial General System)** is a multilingual, voice-powered AI assistant trained using 522 real-world datasets and 72 intelligent notebooks. It supports reasoning, memory, tribal language communication, and emotional understanding.
+**AGS (Artificial General System)** is a multilingual, voice-enabled AI system built using **522 real-world datasets** and **72 training notebooks**. It is designed to simulate reasoning, memory, emotion, and multilingual understanding — forming the foundation of a more powerful system called **AOS (Artificial Omniscient System)**.
 
-AGS is the foundation of **AOS (Artificial Omniscient System)** — a future-ready AI superbrain designed to serve humanity across Earth and space.
+AGS is not just an assistant. It's a full modular AI agent system with integrated:
+- 🧠 Real-time reasoning (OpenAI GPT-4)
+- 🎙️ Voice input/output (Whisper + ElevenLabs)
+- 🧬 Memory retrieval (Supabase + pgvector)
+- 💬 Multilingual support (English + Tribal languages like Miji, Nyishi, Monpa)
 
 
 
 ## 🔍 Core Features
 
-- 💬 **Multilingual Language Understanding**  
-  Includes English + Indian tribal languages (Miji, Nyishi, Monpa)
-
-- 🧠 **Reasoning & Memory**  
-  Logic, emotional intelligence, and retrieval-based memory
-
-- 🎙 **Voice Input & Output**  
-  Voice-enabled conversations via ElevenLabs + Whisper
-
-- 📚 **Massive Dataset Base**  
-  Built using 522 open datasets and 72 AGS notebooks
+| Capability        | Description                                                   |
+|------------------|---------------------------------------------------------------|
+| 🧠 Reasoning      | Logical and emotional reasoning based on trained notebooks     |
+| 🎙 Voice I/O      | Speak and listen via ElevenLabs and Whisper                   |
+| 🗃 Memory/RAG     | Supabase + LangChain + pgvector for retrieval-based memory    |
+| 💬 Multilingual   | Supports English and tribal languages (Miji, Nyishi, Monpa)   |
+| 📚 Dataset-rich   | Built using 522 AI datasets and 72 logic-focused notebooks    |
 
 
 
-## 🛠 Tech Stack
+## 🚀 Tech Stack
 
-| Capability         | Tools/Frameworks                         |
-|--------------------|------------------------------------------|
-| UI & Input         | Gradio                                   |
-| AI Reasoning       | OpenAI GPT-4                             |
-| Voice I/O          | ElevenLabs, Whisper                      |
-| Memory & RAG       | Supabase, pgvector, LangChain            |
-| Deployment         | Hugging Face Spaces                      |
-| Dataset Handling   | Python, Pandas, MIDI, JSON               |
+- **Language Model:** OpenAI GPT-4  
+- **Voice Tools:** Whisper, ElevenLabs  
+- **Frontend:** Gradio (via Hugging Face Spaces)  
+- **Memory System:** Supabase, LangChain, pgvector  
+- **Data Handling:** Pandas, JSON, MIDI, COCO, etc.
 
 
 
 ## 🌍 Deployment Links
 
-- 🔗 **GitHub**: [Ashok080/AGS-Voice-System](https://github.com/Ashok080/AGS-Voice-System)  
-- 🚀 **Hugging Face Space**: [AGS Voice System Demo](https://huggingface.co/spaces/Ashok080/AGS-Voice-System)
+- 🔗 GitHub: [github.com/Ashok080/AGS-Voice-System](https://github.com/Ashok080/AGS-Voice-System)  
+- 🚀 Hugging Face Space: [huggingface.co/spaces/Ashok080/AGS-Voice-System](https://huggingface.co/spaces/Ashok080/AGS-Voice-System)
 
 
 
-## 🤖 Vision: AGS → AOS
+## 🔭 Vision: From AGS to AOS
 
-AGS is the first step toward **AOS**, an omniscient multilingual assistant that will:
+AGS is the first milestone toward **AOS (Artificial Omniscient System)** — a truly intelligent, always-learning AI for use across:
+- 🌾 Agriculture
+- 🏥 Healthcare
+- 🧑‍🏫 Education
+- 🪐 Space research
+- 🏛️ Governance and rural services
 
-- Understand human emotion and logic  
-- Speak any language  
-- Connect to real-world data and update itself  
-- Be used in education, agriculture, healthcare, governance, and space tech
+It’s designed for **humanity + space**, supporting inclusive development with emotional intelligence and real-time logic.
 
 
 
-## 👨‍🚀 Created By
+## 👨‍🚀 Created by
 
 **Ashok Miji**  
-AI Developer & Researcher  
-Building voice-first, multilingual, humanitarian-focused AI agents for Earth and Space.
-
-
-
-## 📣 Get Involved
-
-If you're interested in helping expand AGS or deploy it for public benefit (education, medicine, tribal languages, voice assistants), feel free to connect or contribute via pull requests.
+Multilingual AI Developer | Tribal Voice Tech | Humanitarian AI | Earth & Space AI Systems
