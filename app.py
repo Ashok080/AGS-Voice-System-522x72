@@ -1,28 +1,39 @@
-import gradio as gr
-import openai
-import os
+import streamlit as st
+import pandas as pd
 
-openai.api_key = os.environ["OPENAI_API_KEY"]
+# App title
+st.set_page_config(page_title="Self Improvement Dataset Viewer", layout="wide")
+st.title("📈 Self Improvement Dataset Viewer")
 
-def ags_response(user_input):
-    if not user_input.strip():
-        return "Please enter a message."
-    
+@st.cache_data
+def load_data(file_path: str):
     try:
-        response = openai.ChatCompletion.create(
-            model="gpt-4",
-            messages=[{"role": "user", "content": user_input}]
-        )
-        return response["choices"][0]["message"]["content"]
+        data = pd.read_csv(file_path)
+        return data, None
+    except FileNotFoundError:
+        return None, "⚠️ Dataset not found. Please upload or place `self_improvement.csv` in the project folder."
     except Exception as e:
-        return f"Error: {str(e)}"
+        return None, f"⚠️ Something went wrong while loading the dataset: {str(e)}"
 
-demo = gr.Interface(
-    fn=ags_response,
-    inputs="text",
-    outputs="text",
-    title="🧠 AGS: Voice + Reasoning System",
-    description="Multilingual AI agent with reasoning and memory"
-)
+# Load dataset
+df, error = load_data("self_improvement.csv")
 
-demo.launch()
+if error:
+    st.warning(error)
+    uploaded_file = st.file_uploader("Or upload your self_improvement.csv file here", type=["csv"])
+    if uploaded_file is not None:
+        try:
+            df = pd.read_csv(uploaded_file)
+            st.success("✅ File uploaded successfully!")
+        except Exception as e:
+            st.error(f"Could not read uploaded file: {str(e)}")
+else:
+    st.success("✅ Dataset loaded successfully!")
+
+# Show data if available
+if df is not None:
+    st.subheader("🔍 Preview of Data")
+    st.dataframe(df.head())
+
+    st.subheader("📊 Basic Statistics")
+    st.write(df.describe())
