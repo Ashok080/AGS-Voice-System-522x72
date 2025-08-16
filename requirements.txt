@@ -2,6 +2,7 @@
 
 # Web app
 streamlit
+gradio
 
 # Data handling
 pandas
